@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.container-recipe {
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+  width: 57rem;
+  margin: 20rem;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.container-recipe img {
+  height: 450px;
+  width: 54rem;
+  margin-top: 0px;
+  margin-left: 5px;
+  padding: 25px;
+  border-radius: 33px;
+}
+
+.container-recipe h1 {
+  margin-bottom: 15px;
+  margin-left: 15px;
+  text-align: left;
+}
+
+.container-recipe p {
+  font-size: 23px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.container-recipe .time-taken {
+  background-color: hsla(31, 53%, 90%, 0.623);
+  padding: 30px;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-right: 50px;
+  width: 790px;
+  border-radius: 15px;
+  /* opacity: 0.6; */
+}
+
+.container-recipe .time-taken li span {
+  color: hsl(30, 10%, 34%);
+}
+
+.container-recipe .time-taken h2 {
+  margin-bottom: 10px;
+}
+
+.container-recipe .time-taken ul {
+  margin-left: 38px;
+}
+
+.container-recipe .food-stuffs h2 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.container-recipe .food-stuffs li {
+  color: hsl(30, 10%, 34%);
+}
+
+.container-recipe .food-stuffs ul {
+  margin-left: 60px;
+  margin-bottom: 25px;
+}
+
+.container-recipe .steps {
+  margin-left: 20px;
+}
+
+.container-recipe .steps ol li {
+  color: black;
+}
+
+.container-recipe .steps ol li span {
+  color: hsl(30, 10%, 34%);
+}
+
+.container-recipe .steps h2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.container-recipe .steps ol {
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+
+.container-recipe .health-benefits {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.container-recipe .health-benefits h2 {
+  margin-bottom: 10px;
+}
+
+.container-recipe .health-benefits h3 {
+  margin-bottom: 15px;
+}
+
+.container-recipe .health-benefits h4 {
+  margin-bottom: 15px;
+}
+
+.container-recipe .health-benefits span {
+  margin-left: 310px;
+}
+
+.container-recipe .one {
+  width: 400px;
+}
+
+.container-recipe h2 {
+  color: hsl(14, 45%, 36%);
+}
+
+.container-recipe .health-benefits h3 {
+  color: hsl(30, 10%, 34%);
+}
+
+.container-recipe .health-benefits h4 {
+  color: hsl(30, 10%, 34%);
+}
+
+.container-recipe .health-benefits h4 span {
+  color: hsl(332, 51%, 32%);
+}
