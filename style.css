@@ -1,147 +1,90 @@
-@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* @font-face{
+    font-family: ;
+    src: url( extention is .ttf);
+} */
+
 body {
   background-color: hsl(30, 54%, 90%);
   display: flex;
+  align-content: center;
   justify-content: center;
-  align-items: center;
-  /* height: 100vh; */
+  /* font-family: ;. cal the name of the font aquired */
 }
 
-.container-recipe {
-  background-color: hsl(0, 0%, 100%);
+.card {
+  width: 690px;
+  background-color: white;
   padding: 30px;
-  width: 57rem;
-  margin: 20rem;
   border-radius: 20px;
-  font-size: 20px;
+  margin-top: 100px;
 }
 
-.container-recipe img {
-  height: 450px;
-  width: 54rem;
-  margin-top: 0px;
-  margin-left: 5px;
-  padding: 25px;
-  border-radius: 33px;
+.card img {
+  width: 100%;
+  border-radius: 20px;
 }
 
-.container-recipe h1 {
-  margin-bottom: 15px;
-  margin-left: 15px;
-  text-align: left;
+.card h1 {
+  /* font-family: young; */
+  margin: 20px 0px;
 }
 
-.container-recipe p {
-  font-size: 23px;
-  margin-bottom: 15px;
-  margin-left: 10px;
+.card p {
+  color: hsl(30, 10%, 34%);
+  margin: 0px 0px 20px;
 }
-
-.container-recipe .time-taken {
-  background-color: hsla(31, 53%, 90%, 0.623);
+.card .prep-time{
+  background-color: hsl(330, 100%, 98%);
   padding: 30px;
-  margin-top: 15px;
-  margin-left: 40px;
-  margin-bottom: 40px;
-  margin-right: 50px;
-  width: 790px;
-  border-radius: 15px;
-  /* opacity: 0.6; */
+  border-radius: 20px;
 }
-
-.container-recipe .time-taken li span {
-  color: hsl(30, 10%, 34%);
-}
-
-.container-recipe .time-taken h2 {
-  margin-bottom: 10px;
-}
-
-.container-recipe .time-taken ul {
-  margin-left: 38px;
-}
-
-.container-recipe .food-stuffs h2 {
+.card .prep-time h3{
   margin-bottom: 20px;
-  margin-left: 20px;
+  color: hsl(332, 51%, 32%);
 }
-
-.container-recipe .food-stuffs li {
-  color: hsl(30, 10%, 34%);
+.card .prep-time ul li{
+margin-bottom: 7px;  
 }
-
-.container-recipe .food-stuffs ul {
-  margin-left: 60px;
-  margin-bottom: 25px;
-}
-
-.container-recipe .steps {
-  margin-left: 20px;
-}
-
-.container-recipe .steps ol li {
-  color: black;
-}
-
-.container-recipe .steps ol li span {
-  color: hsl(30, 10%, 34%);
-}
-
-.container-recipe .steps h2 {
+.card .ingredients{
   margin-bottom: 20px;
-  margin-top: 20px;
 }
-
-.container-recipe .steps ol {
-  margin-bottom: 15px;
-  margin-left: 30px;
-}
-
-.container-recipe .health-benefits {
-  margin-top: 15px;
-  margin-bottom: 10px;
-}
-
-.container-recipe .health-benefits h2 {
-  margin-bottom: 10px;
-}
-
-.container-recipe .health-benefits h3 {
-  margin-bottom: 15px;
-}
-
-.container-recipe .health-benefits h4 {
-  margin-bottom: 15px;
-}
-
-.container-recipe .health-benefits span {
-  margin-left: 310px;
-}
-
-.container-recipe .one {
-  width: 400px;
-}
-
-.container-recipe h2 {
+.card .ingredients h2{
+  margin: 20px 0px 20px;
   color: hsl(14, 45%, 36%);
 }
-
-.container-recipe .health-benefits h3 {
-  color: hsl(30, 10%, 34%);
+.card .ingredients ul li{
+  margin: 0px 10px 7px ;
+}
+.card .instructions{
+  margin-bottom: 20px;
+}
+.card .instructions h2 {
+  margin: 20px 0px 20px;
+  color: hsl(14, 45%, 36%);
+}
+.card .instructions ol li span {
+/* margin-bottom: px; */
+color:hsl(332, 51%, 32%)
+}
+.card .nutrition h2{
+margin: 20px 0px 20px;
+color: hsl(14, 45%, 36%);
+}
+.card .nutrition table {
+  width: 100%;
+  /* margin: 20px 0px; */
 }
 
-.container-recipe .health-benefits h4 {
-  color: hsl(30, 10%, 34%);
+.card .nutrition table td {
+  padding: 10px 0px;
+  border-bottom: 1px solid hsl(30, 54%, 90%);
 }
-
-.container-recipe .health-benefits h4 span {
-  color: hsl(332, 51%, 32%);
+.card .nutrition table td{
+  color: hsl(14, 45%, 36%);
 }
